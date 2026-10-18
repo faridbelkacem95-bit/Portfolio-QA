@@ -2,23 +2,24 @@
 
 ## Présentation
 
-Ce dossier présente des démonstrations vidéo de l'exécution
-des tests automatisés du projet Homey.
+Cette section présente cinq démonstrations vidéo
+de l'exécution des tests automatisés du projet Homey.
 
-Les scripts ont été développés avec Robot Framework et Selenium.
+Les tests ont été développés avec Robot Framework et Selenium
+dans le cadre des User Stories US-07 et US-08.
 
-## Scénarios automatisés
+## Démonstrations
 
-Les vidéos permettent d'observer les tests réalisés dans le cadre
-des User Stories US-07 et US-08 :
+Les cinq vidéos illustrent différents scénarios de tests
+liés au parcours de réservation sur l'application Homey.
 
-- Demande de réservation
-- Confirmation de réservation
-- Annulation de réservation
-- Paiement
+Elles permettent de visualiser :
+- Les actions automatisées sur l'interface utilisateur
+- Les vérifications effectuées par les scripts
+- Les comportements observés pendant l'exécution
+- Les éventuels échecs et anomalies rencontrés
 
 ## Objectif
 
-Ces démonstrations permettent de visualiser l'exécution des scripts,
-les interactions avec l'interface utilisateur et la vérification
-des comportements de l'application.
+Présenter concrètement les compétences mises en pratique
+en automatisation des tests IHM et en analyse des résultats.
