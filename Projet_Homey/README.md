@@ -117,6 +117,6 @@ Les ressources et sélecteurs sont séparés des scénarios afin de faciliter le
 - Identification et documentation des anomalies dans Jira
 - Analyse des résultats d'une campagne de test
 - Application des critères de qualité
+- Automatisation des tests IHM avec Robot Framework et Selenium
 - Rédaction d'un rapport de test final
 - Formulation d'une recommandation GO / NO GO
-- Automatisation des tests IHM avec Robot Framework et Selenium
