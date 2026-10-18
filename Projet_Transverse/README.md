@@ -2,22 +2,41 @@
 
 ## Présentation
 
-Ce projet présente la mise en œuvre de différents types de tests logiciels dans le cadre d'un projet QA.
+Ce projet a été réalisé au cours de ma formation en test logiciel.
 
-L'objectif est de vérifier le bon fonctionnement de l'application à travers des tests unitaires, des tests API et des tests d'interface utilisateur (IHM).
+Il m'a permis de mettre en pratique différentes activités de test manuel et automatisé, ainsi que des outils de gestion des tests, de bases de données et d'intégration continue.
 
-## Types de tests réalisés
+## Travaux réalisés
 
-- Tests unitaires avec Python
+### Tests manuels
+
+- Analyse, conception, implémentation et exécution des tests manuels
+- Gestion et suivi des cas de test avec Xray
+- Identification et documentation des anomalies dans Jira
+
+### Tests automatisés
+
+- Tests unitaires avec Python et Unittest
 - Tests API avec Robot Framework
-- Tests IHM automatisés avec Robot Framework et Selenium
-- Tests de scénarios de connexion valides et invalides
+- Tests IHM avec Robot Framework et Selenium
+- Automatisation de scénarios de connexion valides et invalides
+- Création de scripts pour lancer les tests automatisés
+
+### SQL et intégration continue
+
+- Réalisation de requêtes SQL
+- Création de pipelines CI/CD avec Jenkins
+
+### Suivi des tests
+
+- Analyse des résultats d'exécution
+- Rédaction du rapport de test final
 
 ## Structure du projet
 
-- `tests_unitaires/` : tests unitaires Python
-- `tests_api/` : tests automatisés des API
 - `tests_ihm/` : tests automatisés de l'interface utilisateur
+- `tests_api/` : tests automatisés des API
+- `tests_unitaires/` : tests unitaires avec Python et Unittest
 - `lancer_tests_unitaires.bat` : lancement des tests unitaires
 - `lancer_tests_api.bat` : lancement des tests API
 - `lancer_tests_ihm.bat` : lancement des tests IHM
@@ -25,18 +44,22 @@ L'objectif est de vérifier le bon fonctionnement de l'application à travers de
 
 ## Outils et technologies
 
+- Jira
+- Xray
 - Python
+- Unittest
 - Robot Framework
 - Selenium
-- Unittest
-- Git / GitHub
+- SQL
+- Jenkins
 
 ## Compétences mises en pratique
 
-- Conception et exécution de tests logiciels
-- Automatisation de tests
-- Tests fonctionnels d'interface utilisateur
-- Tests API
-- Tests unitaires
-- Analyse des résultats d'exécution
-- Organisation et gestion d'un projet de tests avec GitHub
+- Analyse, conception, implémentation et exécution des tests
+- Tests manuels et automatisés
+- Tests unitaires, API et IHM
+- Gestion des tests avec Xray
+- Documentation des anomalies dans Jira
+- Réalisation de requêtes SQL
+- Création de pipelines CI/CD avec Jenkins
+- Analyse des résultats et rédaction de rapports de test
