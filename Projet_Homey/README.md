@@ -77,6 +77,15 @@ Bien que le taux de réussite global soit d'environ 84 % et que 100 % des cas pr
 
 La mise en production n'est donc pas recommandée tant que les anomalies bloquantes ne sont pas corrigées et que les tests concernés n'ont pas été réexécutés.
 
+## Rapport de test final
+
+À l'issue de la campagne de test, deux livrables ont été réalisés :
+
+- [Rapport de test Homey (Excel)](rapport_test/Rapport_de_test_Homey.xlsx)
+- [Note d'analyse du rapport de test (PDF)](rapport_test/Note_analyse_Rapport_de_test_Homey.pdf)
+
+Ces documents présentent les résultats des tests, les indicateurs de qualité, l'analyse des anomalies et la justification de la recommandation finale NO GO.
+
 ## Automatisation des tests
 
 Une partie des scénarios fonctionnels a été automatisée avec **Robot Framework et Selenium**.
