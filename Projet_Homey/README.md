@@ -1,8 +1,8 @@
-# Projet Homey – Tests fonctionnels et automatisés
+# Projet Homey – Projet de fin de formation (PFF)
 
 ## Présentation
 
-Homey est un projet de test logiciel réalisé dans le cadre de ma formation QA.
+Homey est mon projet de fin de formation en test logiciel et assurance qualité (QA).
 
 Le périmètre présenté dans ce portfolio porte principalement sur le processus de réservation entre un voyageur et un hôte.
 
@@ -11,22 +11,23 @@ Deux User Stories ont été testées :
 - **US-07 – Faire une demande de réservation (P1)**
 - **US-08 – Traiter une demande de réservation (P2)**
 
-Le projet combine des activités de **tests fonctionnels manuels**, de **gestion des anomalies** et d'**automatisation de tests IHM**.
+Ce projet combine des activités de tests fonctionnels manuels, de gestion des tests avec Xray, de suivi des anomalies dans Jira et d'automatisation des tests IHM.
 
 ## Démarche de test
 
 Les activités réalisées sur ce projet comprennent :
 
-- analyse des User Stories et des critères d'acceptation ;
-- conception des cas de test ;
-- préparation des plans de test ;
-- exécution des tests fonctionnels ;
-- collecte des preuves d'exécution ;
-- identification et qualification des anomalies ;
-- suivi des anomalies dans Jira ;
-- analyse des résultats de la campagne de test ;
-- recommandation GO / NO GO ;
-- automatisation de scénarios IHM avec Robot Framework et Selenium.
+- Analyse des User Stories et des critères d'acceptation
+- Conception des cas de test
+- Implémentation et préparation des tests
+- Exécution des tests fonctionnels manuels
+- Gestion et suivi des cas de test avec Xray
+- Collecte des preuves d'exécution
+- Identification, qualification et suivi des anomalies dans Jira
+- Conception, implémentation et exécution de tests automatisés IHM avec Robot Framework et Selenium
+- Analyse des résultats de la campagne de test
+- Rédaction du rapport de test final
+- Formulation d'une recommandation GO / NO GO
 
 ## Résultats de la campagne de test
 
@@ -60,13 +61,13 @@ Le périmètre comporte :
 
 Les anomalies bloquantes concernent notamment le processus de paiement de l'US-08.
 
-Les captures et preuves associées aux anomalies sont disponibles dans le dossier dédié du projet.
+Les captures et preuves associées aux anomalies sont disponibles dans le dossier `anomalies/`.
 
 ## Décision qualité – NO GO
 
 À l'issue de la campagne de test, la recommandation est :
 
-### 🔴 NO GO
+**NO GO**
 
 Bien que le taux de réussite global soit d'environ 84 % et que 100 % des cas prévus aient été exécutés, les critères qualité définis ne sont pas atteints.
 
@@ -74,67 +75,48 @@ Bien que le taux de réussite global soit d'environ 84 % et que 100 % des cas pr
 
 **US-08 (P2)** atteint 85 % de réussite, soit davantage que l'objectif de 80 %, mais deux anomalies bloquantes affectent le processus de paiement.
 
-La mise en production n'est donc pas recommandée tant que les anomalies critiques ne sont pas corrigées et que les tests concernés n'ont pas été réexécutés.
+La mise en production n'est donc pas recommandée tant que les anomalies bloquantes ne sont pas corrigées et que les tests concernés n'ont pas été réexécutés.
 
 ## Automatisation des tests
 
-Une partie des scénarios fonctionnels a également été automatisée afin de mettre en pratique l'automatisation des tests IHM.
-
-### Technologies utilisées
-
-- Python
-- Robot Framework
-- SeleniumLibrary
-- Selenium
-- Git / GitHub
-
-Les sélecteurs de l'application sont centralisés afin de faciliter la maintenance des scripts d'automatisation.
+Une partie des scénarios fonctionnels a été automatisée avec **Robot Framework et Selenium**.
 
 Les scénarios automatisés couvrent notamment :
 
-- la connexion utilisateur ;
-- la demande de réservation ;
-- le traitement d'une réservation côté hôte ;
-- la confirmation ;
-- le paiement ;
-- l'annulation.
+- La connexion utilisateur
+- La demande de réservation
+- Le traitement d'une réservation côté hôte
+- La confirmation
+- Le paiement
+- L'annulation
 
-## Démonstrations des tests automatisés
+Les scripts sont organisés dans le dossier `tests_automatises/`.
 
-Des vidéos d'exécution sont également disponibles afin d'illustrer le fonctionnement des scénarios automatisés.
+Les ressources et sélecteurs sont séparés des scénarios afin de faciliter leur maintenance.
 
-Elles permettent de visualiser l'exécution réelle des tests Robot Framework / Selenium sur l'application Homey.
+## Outils et technologies
 
-> Les liens vers les démonstrations seront ajoutés après intégration des vidéos au portfolio.
-
-## Outils utilisés
-
-- **Jira** – gestion et suivi des anomalies
-- **Robot Framework** – automatisation des scénarios de test
-- **Selenium / SeleniumLibrary** – automatisation de l'interface Web
-- **Python** – support de l'automatisation
-- **Git / GitHub** – versionnement et présentation du projet
+- **Jira** : gestion et suivi des anomalies
+- **Xray** : gestion des cas de test et suivi des exécutions
+- **Robot Framework** : automatisation des tests IHM
+- **Selenium / SeleniumLibrary** : automatisation de l'interface Web
+- **Python** : support de l'automatisation
+- **GitHub** : présentation des livrables du projet
 
 ## Organisation du projet
 
-Projet_Homey/
-- tests_manuels/
-- anomalies/
-- rapport_test/
-- automatisation/
-- demonstrations/
+- `tests_manuels/` : documents et livrables des tests manuels
+- `anomalies/` : anomalies et preuves associées
+- `tests_automatises/` : scripts Robot Framework, ressources et suivi des exécutions
 
 ## Compétences mises en pratique
 
-Ce projet m'a permis de mettre en pratique :
-
-- la conception de cas de test fonctionnels ;
-- l'exécution et le suivi d'une campagne de test ;
-- l'analyse des résultats ;
-- la rédaction et la qualification d'anomalies ;
-- l'utilisation de Jira ;
-- l'application de critères de qualité ;
-- la formulation d'une recommandation GO / NO GO ;
-- l'automatisation de tests IHM ;
-- Robot Framework et Selenium ;
-- l'organisation et la documentation d'un projet QA.
+- Analyse des User Stories et des critères d'acceptation
+- Conception, implémentation et exécution des tests
+- Gestion et suivi des tests avec Xray
+- Identification et documentation des anomalies dans Jira
+- Analyse des résultats d'une campagne de test
+- Application des critères de qualité
+- Rédaction d'un rapport de test final
+- Formulation d'une recommandation GO / NO GO
+- Automatisation des tests IHM avec Robot Framework et Selenium
