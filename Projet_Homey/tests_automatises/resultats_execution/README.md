@@ -22,11 +22,11 @@ Le fichier `Suivi_Tests_Automatises_Homey.xlsx` permet de consulter :
 Les campagnes de tests ont permis d'identifier des scénarios réussis
 ainsi que des échecs nécessitant une analyse.
 
-Une exécution des tests de paiement du 27 juillet 2026
+Une exécution des tests de paiement 
 présentait deux échecs techniques.
 
 Le tableau de suivi documente également des résultats PASS
-enregistrés le 28 juillet 2026.
+enregistrés.
 
 Ces résultats illustrent l'importance du suivi des exécutions,
 de l'analyse des échecs et de la vérification des corrections.
