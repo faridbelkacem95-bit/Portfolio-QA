@@ -13,6 +13,8 @@ Ce projet, réalisé au cours de ma formation en test logiciel, m'a permis de me
 Travaux réalisés :
 
 - Analyse, conception, implémentation et exécution de tests manuels
+- Gestion et suivi des cas de test avec Xray
+- Identification et documentation des anomalies dans Jira
 - Conception, implémentation et exécution de tests automatisés
 - Tests unitaires avec Python et Unittest
 - Tests API avec Robot Framework
@@ -33,8 +35,7 @@ Ce projet de fin de formation porte sur les fonctionnalités de réservation d'u
 Travaux réalisés :
 
 - Analyse des User Stories US-07 et US-08
-- Conception des cas de test manuels
-- Implémentation et exécution des tests manuels
+- Conception, implémentation et exécution des tests manuels
 - Gestion et suivi des cas de test avec Xray
 - Conception, implémentation et exécution des tests automatisés IHM avec Robot Framework et Selenium
 - Vérification des parcours de réservation, confirmation, annulation et paiement
@@ -55,17 +56,6 @@ Travaux réalisés :
 - SQL
 - Jenkins
 - GitHub
-
-## Compétences mises en pratique
-
-- Analyse des exigences et des User Stories
-- Conception, implémentation et exécution des tests
-- Automatisation des tests fonctionnels
-- Tests API et tests unitaires
-- Détection et documentation des anomalies
-- Gestion et suivi des tests avec Xray
-- Suivi des résultats et traçabilité des tests
-- Rédaction de rapports de test
 
 ## Objectif du portfolio
 
