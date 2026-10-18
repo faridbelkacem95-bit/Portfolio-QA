@@ -6,7 +6,27 @@ Ce portfolio présente les projets réalisés au cours de ma formation en test l
 
 ## Mes projets
 
-### 1. Projet Homey – Projet de fin de formation (PFF)
+### 1. Projet Transverse – Projet réalisé au cours de la formation
+
+Ce projet, réalisé au cours de ma formation en test logiciel, m'a permis de mettre en pratique différentes activités de test, ainsi que des outils d'automatisation et d'intégration continue.
+
+Travaux réalisés :
+
+- Analyse, conception, implémentation et exécution de tests manuels
+- Conception, implémentation et exécution de tests automatisés
+- Tests unitaires avec Python et Unittest
+- Tests API avec Robot Framework
+- Tests IHM avec Robot Framework et Selenium
+- Réalisation de requêtes SQL
+- Création de pipelines CI/CD avec Jenkins
+- Création de scripts pour lancer les tests automatisés
+- Analyse des résultats d'exécution
+- Rédaction du rapport de test final
+
+[Consulter le projet Transverse](Projet_Transverse/)
+
+
+### 2. Projet Homey – Projet de fin de formation (PFF)
 
 Ce projet de fin de formation porte sur les fonctionnalités de réservation d'une application web. Il m'a permis de mettre en pratique les compétences acquises durant ma formation en test logiciel.
 
@@ -16,7 +36,7 @@ Travaux réalisés :
 - Conception des cas de test manuels
 - Implémentation et exécution des tests manuels
 - Gestion et suivi des cas de test avec Xray
-- Implémentation et exécution des tests automatisés IHM avec Robot Framework et Selenium
+- Conception, implémentation et exécution des tests automatisés IHM avec Robot Framework et Selenium
 - Vérification des parcours de réservation, confirmation, annulation et paiement
 - Identification et documentation des anomalies dans Jira
 - Suivi et analyse des résultats d'exécution
@@ -24,31 +44,16 @@ Travaux réalisés :
 
 [Consulter le projet Homey](Projet_Homey/)
 
-### 2. Projet Transverse – Projet réalisé au cours de la formation
-
-Ce projet, réalisé au cours de ma formation en test logiciel, m'a permis de mettre en pratique différents niveaux et types de tests logiciels.
-
-Travaux réalisés :
-
-- Analyse et conception des cas de test
-- Implémentation et exécution des tests automatisés
-- Réalisation de tests unitaires avec Python et Unittest
-- Réalisation de tests API avec Robot Framework
-- Réalisation de tests IHM avec Robot Framework et Selenium
-- Vérification des scénarios de connexion valides et invalides
-- Création de scripts pour lancer les tests
-- Analyse des résultats d'exécution
-- Rédaction du rapport de test final
-
-[Consulter le projet Transverse](Projet_Transverse/)
 ## Outils et technologies
 
-- Python
-- Robot Framework
-- Selenium
-- Unittest
 - Jira
 - Xray
+- Python
+- Robot Framework
+- Unittest
+- Selenium
+- SQL
+- Jenkins
 - GitHub
 
 ## Compétences mises en pratique
