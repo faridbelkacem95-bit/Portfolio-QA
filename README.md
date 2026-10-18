@@ -26,20 +26,21 @@ Travaux réalisés :
 
 ### 2. Projet Transverse – Projet réalisé au cours de la formation
 
-Ce projet, réalisé au cours de ma formation en test logiciel, m'a permis de pratiquer différents niveaux et types de tests logiciels.
+Ce projet, réalisé au cours de ma formation en test logiciel, m'a permis de mettre en pratique différents niveaux et types de tests logiciels.
 
 Travaux réalisés :
 
-- Conception, implémentation et exécution de tests unitaires avec Python et Unittest
-- Conception, implémentation et exécution de tests API avec Robot Framework
-- Implémentation et exécution de tests IHM avec Robot Framework et Selenium
-- Automatisation de scénarios de connexion
+- Analyse et conception des cas de test
+- Implémentation et exécution des tests automatisés
+- Réalisation de tests unitaires avec Python et Unittest
+- Réalisation de tests API avec Robot Framework
+- Réalisation de tests IHM avec Robot Framework et Selenium
+- Vérification des scénarios de connexion valides et invalides
 - Création de scripts pour lancer les tests
 - Analyse des résultats d'exécution
 - Rédaction du rapport de test final
 
 [Consulter le projet Transverse](Projet_Transverse/)
-
 ## Outils et technologies
 
 - Python
