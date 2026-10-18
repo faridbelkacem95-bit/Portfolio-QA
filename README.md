@@ -10,7 +10,8 @@ Ce portfolio présente mes projets pratiques en tests manuels, tests automatisé
 
 Ce projet porte sur les fonctionnalités de réservation d'une application web.
 
-Travaux réalisés :
+**Travaux réalisés :**
+
 - Analyse des User Stories US-07 et US-08
 - Conception et exécution de tests manuels
 - Automatisation des tests IHM avec Robot Framework et Selenium
@@ -18,20 +19,21 @@ Travaux réalisés :
 - Identification et documentation des anomalies dans Jira
 - Suivi et analyse des résultats d'exécution
 
-[Consulter le projet Homey](Projet_Homey)
+[Consulter le projet Homey](https://github.com/faridbelkacem95-bit/Portfolio-QA/tree/main/Projet_Homey)
 
 ### 2. Projet Transverse – Tests logiciels
 
 Ce projet présente différents niveaux et types de tests logiciels.
 
-Travaux réalisés :
+**Travaux réalisés :**
+
 - Tests unitaires avec Python et Unittest
 - Tests API avec Robot Framework
 - Tests IHM avec Robot Framework et Selenium
 - Automatisation de scénarios de connexion
 - Création de scripts pour lancer les tests
 
-[Consulter le projet Transverse](Projet_Transverse)
+[Consulter le projet Transverse](https://github.com/faridbelkacem95-bit/Portfolio-QA/tree/main/Projet_Transverse)
 
 ## Outils et technologies
 
@@ -41,7 +43,6 @@ Travaux réalisés :
 - Unittest
 - Jira
 - Git et GitHub
-- Tests manuels et automatisés
 
 ## Compétences mises en pratique
 
