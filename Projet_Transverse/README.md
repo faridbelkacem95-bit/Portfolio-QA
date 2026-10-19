@@ -4,7 +4,7 @@
 
 Ce projet a été réalisé au cours de ma formation en test logiciel.
 
-Il m'a permis de mettre en pratique différentes activités de test manuel et automatisé, ainsi que des outils de gestion des tests, de bases de données et d'intégration continue.
+Il m'a permis de mettre en pratique différentes activités de tests manuels et automatisés, ainsi que des outils de gestion des tests et d'intégration continue.
 
 ## Travaux réalisés
 
@@ -22,10 +22,9 @@ Il m'a permis de mettre en pratique différentes activités de test manuel et au
 - Automatisation de scénarios de connexion valides et invalides
 - Création de scripts pour lancer les tests automatisés
 
-### SQL et intégration continue
+### Intégration continue
 
-- Réalisation de requêtes SQL
-- Création de pipelines CI/CD avec Jenkins
+- Mise en place d'un pipeline Jenkins pour automatiser l'exécution des tests unitaires
 
 ### Suivi des tests
 
@@ -41,6 +40,9 @@ Il m'a permis de mettre en pratique différentes activités de test manuel et au
 - `lancer_tests_api.bat` : lancement des tests API
 - `lancer_tests_ihm.bat` : lancement des tests IHM
 - `lancer_tous_les_tests.bat` : lancement de l'ensemble des tests
+- `log.html` : journal d'exécution Robot Framework
+- `report.html` : rapport d'exécution Robot Framework
+- `output.xml` : résultats d'exécution au format XML
 
 ## Outils et technologies
 
@@ -50,7 +52,6 @@ Il m'a permis de mettre en pratique différentes activités de test manuel et au
 - Unittest
 - Robot Framework
 - Selenium
-- SQL
 - Jenkins
 
 ## Compétences mises en pratique
@@ -60,6 +61,11 @@ Il m'a permis de mettre en pratique différentes activités de test manuel et au
 - Tests unitaires, API et IHM
 - Gestion des tests avec Xray
 - Documentation des anomalies dans Jira
-- Réalisation de requêtes SQL
-- Création de pipelines CI/CD avec Jenkins
+- Automatisation de l'exécution des tests unitaires avec Jenkins
 - Analyse des résultats et rédaction de rapports de test
+
+## Livrables disponibles
+
+Ce dépôt présente les scripts de test, les fichiers de lancement et les résultats d'exécution conservés à l'issue de ma formation.
+
+Les activités de tests manuels, de gestion des tests et de rédaction du rapport final ont également été réalisées pendant la formation, mais leurs livrables ne sont pas disponibles dans ce dépôt.
