@@ -34,10 +34,7 @@ Cinq anomalies ont été identifiées : deux bloquantes, deux majeures et une mi
 
 Les deux User Stories ont été déclarées non conformes aux critères qualité définis.
 
-La recommandation finale du testeur est **NO GO**, notamment en raison des anomalies bloquantes affectant le processus de paiement de l'US-08.
-
 ## Livrables
 
 - [Tests manuels US-07](US-07/)
 - [Tests manuels US-08](US-08/)
-- [Rapport de test et note d'analyse](../rapport_test/)
