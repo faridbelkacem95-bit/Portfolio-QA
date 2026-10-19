@@ -33,21 +33,23 @@ Les activités réalisées sur ce projet comprennent :
 
 | Indicateur | US-07 | US-08 |
 |---|---:|---:|
-| Cas de test | 12 | 20 |
+| Cas de test exécutés | 12 | 20 |
 | Tests réussis | 10 | 17 |
 | Tests en échec | 2 | 3 |
 | Taux de réussite | 83,3 % | 85 % |
 | Objectif qualité | 100 % | 80 % |
-| Conformité | Non validée | Non validée |
+| Conformité | Non conforme | Non conforme |
 
 ### Bilan global
 
 - **32 cas de test exécutés**
 - **27 tests réussis**
 - **5 tests en échec**
-- **100 % du périmètre exécuté**
-- **≈ 84 % de réussite globale**
+- **100 % du périmètre de test prévu exécuté**
+- **84,4 % de réussite globale**
 - **5 anomalies identifiées**
+
+Les résultats montrent que l'ensemble des cas de test prévus a été exécuté. Toutefois, certains critères de qualité ne sont pas satisfaits.
 
 ## Gestion des anomalies
 
@@ -61,25 +63,28 @@ Le périmètre comporte :
 
 Les anomalies bloquantes concernent notamment le processus de paiement de l'US-08.
 
-Les captures et preuves associées aux anomalies sont disponibles dans le dossier `anomalies/`.
+Les captures et preuves associées sont disponibles dans le dossier [`anomalies/`](anomalies/).
+
+**Xray** a été utilisé pour la gestion des cas de test, le suivi des exécutions et la traçabilité des tests.
 
 ## Décision qualité – NO GO
 
-À l'issue de la campagne de test, la recommandation est :
+À l'issue de la campagne de test, la recommandation finale est :
 
-**NO GO**
+**NO GO – Mise en production non recommandée.**
 
-Bien que le taux de réussite global soit d'environ 84 % et que 100 % des cas prévus aient été exécutés, les critères qualité définis ne sont pas atteints.
+Cette décision repose sur les éléments suivants :
 
-**US-07 (P1)** atteint 83,3 % de réussite alors que l'objectif défini est de 100 %.
+- **US-07 (P1)** : taux de réussite de 83,3 %, inférieur à l'objectif qualité de 100 %.
+- **US-08 (P2)** : taux de réussite de 85 %, supérieur à l'objectif de 80 %, mais présence de deux anomalies bloquantes affectant le processus de paiement.
 
-**US-08 (P2)** atteint 85 % de réussite, soit davantage que l'objectif de 80 %, mais deux anomalies bloquantes affectent le processus de paiement.
+Malgré un taux de réussite global de 84,4 % et une exécution complète du périmètre prévu, les critères de qualité définis ne sont pas tous respectés.
 
 La mise en production n'est donc pas recommandée tant que les anomalies bloquantes ne sont pas corrigées et que les tests concernés n'ont pas été réexécutés.
 
 ## Rapport de test final
 
-À l'issue de la campagne de test, deux livrables ont été réalisés :
+À l'issue de la campagne, deux livrables ont été réalisés :
 
 - [Rapport de test Homey (Excel)](rapport_test/Rapport_de_test_Homey.xlsx)
 - [Note d'analyse du rapport de test (PDF)](rapport_test/Note_analyse_Rapport_de_test_Homey.pdf)
@@ -99,9 +104,11 @@ Les scénarios automatisés couvrent notamment :
 - Le paiement
 - L'annulation
 
-Les scripts sont organisés dans le dossier `tests_automatises/`.
+Les scripts sont organisés dans le dossier [`tests_automatises/`](tests_automatises/).
 
-Les ressources et sélecteurs sont séparés des scénarios afin de faciliter leur maintenance.
+Les ressources et les sélecteurs sont séparés des scénarios afin de faciliter leur maintenance.
+
+Les résultats d'exécution sont suivis et analysés, y compris les échecs techniques rencontrés lors de certaines exécutions.
 
 ## Outils et technologies
 
@@ -110,13 +117,15 @@ Les ressources et sélecteurs sont séparés des scénarios afin de faciliter le
 - **Robot Framework** : automatisation des tests IHM
 - **Selenium / SeleniumLibrary** : automatisation de l'interface Web
 - **Python** : support de l'automatisation
-- **GitHub** : présentation des livrables du projet
+- **Excel** : suivi et analyse des résultats de test
+- **GitHub** : organisation et présentation des livrables
 
 ## Organisation du projet
 
-- `tests_manuels/` : documents et livrables des tests manuels
-- `anomalies/` : anomalies et preuves associées
-- `tests_automatises/` : scripts Robot Framework, ressources et suivi des exécutions
+- [`tests_manuels/`](tests_manuels/) : plans de test, résultats et preuves d'exécution des US-07 et US-08
+- [`anomalies/`](anomalies/) : anomalies identifiées dans Jira et captures associées
+- [`tests_automatises/`](tests_automatises/) : scénarios Robot Framework, ressources et suivi des exécutions
+- [`rapport_test/`](rapport_test/) : rapport de test final et note d'analyse de la campagne
 
 ## Compétences mises en pratique
 
@@ -127,5 +136,10 @@ Les ressources et sélecteurs sont séparés des scénarios afin de faciliter le
 - Analyse des résultats d'une campagne de test
 - Application des critères de qualité
 - Automatisation des tests IHM avec Robot Framework et Selenium
+- Analyse des échecs d'exécution
 - Rédaction d'un rapport de test final
 - Formulation d'une recommandation GO / NO GO
+
+## Objectif du projet
+
+Ce projet illustre ma capacité à mener une démarche de test logiciel, depuis l'analyse des besoins jusqu'à l'évaluation de la qualité d'une application, en combinant tests manuels, automatisation, gestion des anomalies et analyse des résultats.
